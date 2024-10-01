@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Simple backup script for my own personal dotfiles.
 #
 # By: Janregx (Kinan Principe)
@@ -5,26 +7,12 @@
 # Created     : 01/10/2024
 # Last change : 01/10/2024
 
-
-#!/bin/bash
-
-input=(
-    .emacs.local
-    .emacs
-    .emacs.custom.el
-)
-
-log() {
-    echo -e "[\e[32mLOG\e[0m]: $1"
-}
-err() {
-    echo -e "[\e[31mERROR\e[0m]: $1"
-}
+source common.sh
 
 # Emacs config files.
 # TODO: implement deployment.
 
-for i in "${input[@]}"; do
+for i in "${list[@]}"; do
     log "Copying $i"
 
     if [ -d ~/"$i" ]; then
