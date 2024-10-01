@@ -11,3 +11,6 @@ log() {
 err() {
     echo -e "[\e[31mERROR\e[0m]: $1"
 }
+warn() {
+    echo -e "[\e[33mWARNING\e[0m]: $1"
+}

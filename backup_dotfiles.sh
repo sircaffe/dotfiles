@@ -9,9 +9,6 @@
 
 source common.sh
 
-# Emacs config files.
-# TODO: implement deployment.
-
 for i in "${list[@]}"; do
     log "Copying $i"
 
