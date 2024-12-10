@@ -5,13 +5,13 @@ Personal dotfiles from my daily use software.
 ```console
 $ git clone https://github.com/janregx/dotfiles
 $ cd dotfiles/
-$ python3 manager.py deploy
+$ python3 deploy.py
 ```
 
 For backing up updated configurations:
 
 ```console
-$ python3 manager.py backup 
+$ python3 deploy.py
 ```
 
 #### Deprecated
