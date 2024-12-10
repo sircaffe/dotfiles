@@ -1,0 +1,16 @@
+--2024-12-07 20:35:42--  https://raw.githubusercontent.com/rexim/simpc-mode/refs/heads/master/simpc-mode.el
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8003::154, 2606:50c0:8001::154, 2606:50c0:8000::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8003::154|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4249 (4.1K) [text/plain]
+Saving to: ‘simpc-mode.el’
+
+     0K ....                                                  100%  267K=0.02s
+
+2024-12-07 20:44:38 (267 KB/s) - ‘simpc-mode.el’ saved [4249/4249]
+
