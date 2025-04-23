@@ -7,7 +7,13 @@
 (global-display-line-numbers-mode 1)
 (setq-default tab-width 4)
 
-(set-face-attribute 'default nil :family "iosevka nerdfont" :height 200)
+(set-face-attribute 'default nil :family "iosevka" :height 150)
+
+(add-to-list 'load-path "/home/mokaccino/.config/emacs/opt")
+(require 'simpc-mode)
+(add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
+
+(require 'multiple-cursors)
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
