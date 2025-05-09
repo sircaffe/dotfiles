@@ -1,37 +1,58 @@
-vim.opt.number = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.scrolloff = 8
-vim.opt.expandtab = true
-vim.opt.cursorline = true
-vim.opt.relativenumber = true
-vim.opt.number = true
+vim.cmd[[
+    set termguicolors
+    set number
+    set relativenumber
+    set cursorline
+    set nocompatible
+    set clipboard=unnamedplus
 
-vim.opt.autochdir = true
+    filetype plugin on
+    set omnifunc=ccomplete#Complete
 
-vim.opt.termguicolors = true
+    set tabstop=4
+    set shiftwidth=0
+    set autoindent
+    set expandtab
+]]
 
-require('keymaps')
+-- Keymaps
+vim.g.mapleader = " "
 
+vim.keymap.set("n", "<leader>fe", ":Ex<cr>")
+vim.keymap.set("n", "<leader>w", ":w<cr>")
+
+-- quickfix
+vim.keymap.set("n", "<leader>cO", ":copen<cr>")
+vim.keymap.set("n", "<leader>cC", ":cclose<cr>")
+vim.keymap.set("n", "<leader>cN", ":cnext<cr>")
+vim.keymap.set("n", "<leader>cP", ":cprevious<cr>")
+
+-- something closer to emacs compile command
+vim.keymap.set("n", "<leader>!", function()
+    vim.ui.input({
+        prompt = 'shell command: ',
+        completion = 'shellcmdline',
+    }, function(input)
+        if input ~= nil then
+            vim.cmd(":belowright split |term "..input) 
+        end
+    end)
+end)
+
+-- Autocmds
+vim.cmd[[
+    autocmd BufReadPre *.asm let g:asmsyntax = "fasm"
+]]
+
+-- Plugins
 local vim = vim
-local Plug = vim.fn['plug#']
+local Plug = vim.fn["plug#"]
 
-vim.call('plug#begin')
+vim.call("plug#begin")
 
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/nvim-cmp'
+-- Plug "blazkowolf/gruber-darker.nvim"
+-- Plug "p00f/alabaster.nvim"
 
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
+vim.call("plug#end")
 
-Plug 'nvim-treesitter/nvim-treesitter'
-
--- Plug 'catppuccin/nvim'
-
-vim.call('plug#end')
-
-require('plugs.nvim-cmp')
-
-
-vim.cmd('colorscheme habamax')
+vim.cmd.colorscheme("habamax")
