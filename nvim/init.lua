@@ -1,24 +1,29 @@
 vim.cmd[[
     set termguicolors
-    set number
-    set relativenumber
-    set cursorline
     set nocompatible
     set clipboard=unnamedplus
 
     filetype plugin on
     set omnifunc=ccomplete#Complete
 
+    set autochdir
+
     set tabstop=4
     set shiftwidth=0
     set autoindent
     set expandtab
+    set number
+    set relativenumber
+    set cursorline
+    set signcolumn=yes:1
 ]]
 
 -- Keymaps
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>fe", ":Ex<cr>")
+vim.keymap.set("n", "<leader>fb", ":Telescope buffers<cr>")
+
 vim.keymap.set("n", "<leader>w", ":w<cr>")
 
 -- quickfix
@@ -52,6 +57,10 @@ vim.call("plug#begin")
 
 -- Plug "blazkowolf/gruber-darker.nvim"
 -- Plug "p00f/alabaster.nvim"
+Plug "nvim-lua/plenary.nvim"
+Plug "NeogitOrg/neogit"
+
+Plug ("nvim-telescope/telescope.nvim", { ["tag"] = "0.1.8" })
 
 vim.call("plug#end")
 
