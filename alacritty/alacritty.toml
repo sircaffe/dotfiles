@@ -2,5 +2,5 @@
 dynamic_padding = true
 
 [font]
-normal = { family = "iosevka", style = "regular" }
+normal = { family = "Iosevka Nerd Font", style = "regular" }
 
