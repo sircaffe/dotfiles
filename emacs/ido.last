@@ -1,0 +1,96 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/kprncp/Programming/faculdade/" . "ads-atp/")
+ ("/opt/" . "node-v22.17.0-linux-x64/")
+ ("/" . "opt/")
+ ("/home/kprncp/Programming/work/" . "pblog/")
+ ("/home/kprncp/Programming/work/pblog/" . "md2html/")
+ ("/home/kprncp/Programming/recreational/" . "md2html/")
+ ("/home/kprncp/Programming/" . "faculdade/")
+ ("/home/kprncp/.config/" . "emacs/")
+ ("/home/kprncp/" . "Programming/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/kprncp/Programming/faculdade/ads-atp/"
+ "/home/kprncp/Programming/faculdade/binary-manipulation/"
+ "/home/kprncp/Programming/faculdade/sgl-database/"
+ "/home/kprncp/"
+ "/home/kprncp/Programming/faculdade/aula/"
+ "/home/kprncp/Programming/faculdade/"
+ "/home/kprncp/Programming/faculdade/min_database/"
+ "/opt/node-v22.17.0-linux-x64/"
+ "/home/kprncp/Programming/work/sircaffe.github.io/"
+ "/home/kprncp/Programming/work/pblog/"
+ "/home/kprncp/.config/emacs/"
+ "/home/kprncp/Programming/recreational/md2html/"
+ "/home/kprncp/Programming/work/"
+ "/home/kprncp/Programming/work/pblog/md2html/"
+ "/home/kprncp/Programming/recreational/raylib-test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "18_valor_total.c"
+ "17_imprimir_nomes.c"
+ "16_data_nascimento.c"
+ "10_figuras_geometricas.c"
+ "09_salario_minimo.c"
+ "08_raiz_quadr_potencia.c"
+ "15_peso.c"
+ "14_gasto_quilowatts.c"
+ "13_aumento_salario.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/kprncp/Programming/faculdade/ads-atp/" (26793 3858 601792 430000) "08_raiz_quadr_potencia.c" "17_imprimir_nomes.c" "15_peso.c" ".git/" "../" "03_divisao_inteiros.c" "14_gasto_quilowatts.c" "Makefile" "./" "16_data_nascimento.c" "README.md" "06_tabuada_mult.c" "a.out" "07_potencia.c" "12_imposto_salario.c" ".gitignore" "04_media_notas.c" "11_quadrado_diagonal.c" "18_valor_total.c" "01_soma_inteiros.c" "05_media_ponderada_notas.c" "02_subtracao_reais.c" "10_figuras_geometricas.c" "09_salario_minimo.c" "13_aumento_salario.c")
+
+ ("/home/kprncp/Programming/recreational/" (26752 61538 657263 163000) "../" "atp/" "./" "md2html/")
+
+ ("/home/kprncp/" (26792 57580 725689 323000) ".face.icon" "go/" "Documents/" "../" "Programming/" ".config/" ".xsession-errors" ".ICEauthority" ".bash_logout" "./" ".python_history" "Public/" "Pictures/" ".cache/" ".face" ".gnupg/" ".dmrc" ".gitconfig" "Music/" ".bash_history" ".bashrc" "Desktop/" ".xsession-errors.old" ".lesshst" "Videos/" ".mozilla/" ".ssh/" ".vim/" ".local/" ".profile" ".wget-hsts" ".viminfo" "Templates/" ".node_repl_history" "Downloads/" ".Xauthority" ".npm/")
+
+ ("/home/kprncp/.config/emacs/" (26791 39603 637258 2000) "../" "elpa/" "eln-cache/" "opt/" "./" "auto-save-list/" "custom.el" "ido.last" "init.el" "transient/")
+
+ ("/home/kprncp/Programming/faculdade/binary-manipulation/" (26787 47372 519406 622000) "../" "Makefile" "./" "main.c" "main")
+
+ ("/home/kprncp/Programming/faculdade/" (26787 44578 943379 935000) "../" "./" "void-binary-storage/" "aula/" "pull-request-git/" "binary-manipulation/" "ads-atp/" "sgl-database/")
+
+ ("/home/kprncp/Programming/faculdade/aula/" (26787 39703 174895 940000) ".git/" "../" "./" "README.md" "script.js" "style.css")
+
+ ("/home/kprncp/Programming/faculdade/sgl-database/" (26781 4870 262702 221000) ".git/" "db.bin" "../" "sample.sgl" "Makefile" "./" "README.md" ".gitignore" "main.c" "main")
+
+ ("/home/kprncp/Programming/faculdade/void-binary-storage/" (26787 39111 875089 578000) "../" "./" "main.c" "main" "sample.bin")
+
+ ("/home/kprncp/Programming/faculdade/min_database/" (26779 49845 839380 967000) ".git/" "db.bin" "../" "sample.sgl" "Makefile" "./" "README.md" ".gitignore" "main.c" "main")
+
+ ("/home/kprncp/Programming/" (26772 61512 764299 79000) "recreational/" "../" "faculdade/" "./" "thirdparty/")
+
+ ("/home/kprncp/Programming/work/sircaffe.github.io/" (26750 19344 613803 836000) "index.html" ".git/" "../" ".#index.html" "./" "styles.css" "#index.html#")
+
+ ("/home/kprncp/Programming/work/" (26750 19174 615465 995000) "sircaffe.github.io/" "../" "./")
+
+ ("/home/kprncp/Programming/work/pblog/" (26747 50677 623902 896000) "index.html" ".git/" "../" "app.js" "./" ".gitignore" ".env" "package.json" "server.js")
+
+ ("/home/kprncp/Programming/recreational/md2html/" (26738 58627 430536 621000) "../" "Makefile" "./" "sample.md" "md2html" "md2html.c")
+
+ ("/opt/node-v22.17.0-linux-x64/" (26734 59469 892224 494000) "share/" "../" "CHANGELOG.md" "./" "lib/" "README.md" "bin/" "include/" "LICENSE")
+
+ ("/opt/" (26734 59469 584214 854000) "../" "./" "node-v22.17.0-linux-x64/")
+
+ ("/home/" (26734 49798 434715 152000) "../" "./" "kprncp/")
+
+ ("/home/kprncp/Music/" (26734 49914 522092 66000) "../" "./")
+
+ ("/home/kprncp/Programming/work/pblog/md2html/" (26736 18739 540172 262000) "../" "./" "sample.md" "md2html" "md2html.c")
+
+ ("/home/kprncp/Programming/recreational/raylib-test/" (26734 58901 380995 973000) "../" "Makefile" "./" "main.c" "main")
+
+ ("/home/kprncp/.config/" (26734 50561 77089 238000) "emacs/" "dconf/" "Thunar/" "../" "user-dirs.dirs" "./" "gtk-3.0/" "user-dirs.locale" "pulse/" "xfce4/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
